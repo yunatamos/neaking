@@ -5,6 +5,33 @@
       <excludeFolder url="file://$MODULE_DIR$/temp" />
       <excludeFolder url="file://$MODULE_DIR$/.tmp" />
       <excludeFolder url="file://$MODULE_DIR$/tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/neakingClient/app/build/generated/res/resValues" />
+      <excludeFolder url="file://$MODULE_DIR$/neakingClient/app/build/generated/ap_generated_sources" />
+      <excludeFolder url="file://$MODULE_DIR$/neakingClient/app/build/intermediates/incremental/bundleReleaseResources" />
+      <excludeFolder url="file://$MODULE_DIR$/neakingClient/app/build/intermediates/incremental/lintVitalAnalyzeRelease" />
+      <excludeFolder url="file://$MODULE_DIR$/neakingClient/app/build/intermediates/incremental/lintVitalReportRelease" />
+      <excludeFolder url="file://$MODULE_DIR$/neakingClient/app/build/intermediates/incremental/packageRelease" />
+      <excludeFolder url="file://$MODULE_DIR$/neakingClient/app/build/intermediates/aar_metadata_check" />
+      <excludeFolder url="file://$MODULE_DIR$/neakingClient/app/build/intermediates/apk_ide_redirect_file" />
+      <excludeFolder url="file://$MODULE_DIR$/neakingClient/app/build/intermediates/assets" />
+      <excludeFolder url="file://$MODULE_DIR$/neakingClient/app/build/intermediates/compressed_assets" />
+      <excludeFolder url="file://$MODULE_DIR$/neakingClient/app/build/intermediates/data_binding_dependency_artifacts" />
+      <excludeFolder url="file://$MODULE_DIR$/neakingClient/app/build/intermediates/duplicate_classes_check" />
+      <excludeFolder url="file://$MODULE_DIR$/neakingClient/app/build/intermediates/lint-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/neakingClient/app/build/intermediates/lint_vital_intermediate_text_report" />
+      <excludeFolder url="file://$MODULE_DIR$/neakingClient/app/build/intermediates/lint_vital_partial_results" />
+      <excludeFolder url="file://$MODULE_DIR$/neakingClient/app/build/intermediates/lint_vital_return_value" />
+      <excludeFolder url="file://$MODULE_DIR$/neakingClient/app/build/intermediates/merged_jni_libs" />
+      <excludeFolder url="file://$MODULE_DIR$/neakingClient/app/build/intermediates/merged_shaders" />
+      <excludeFolder url="file://$MODULE_DIR$/neakingClient/app/build/intermediates/optimized_processed_res" />
+      <excludeFolder url="file://$MODULE_DIR$/neakingClient/app/build/intermediates/sdk_dependency_data" />
+      <excludeFolder url="file://$MODULE_DIR$/neakingClient/app/build/intermediates/shrunk_processed_res" />
+      <excludeFolder url="file://$MODULE_DIR$/neakingClient/app/build/intermediates/signing_config_versions" />
+      <excludeFolder url="file://$MODULE_DIR$/neakingClient/app/build/intermediates/validate_signing_config" />
+      <excludeFolder url="file://$MODULE_DIR$/neakingClient/app/build/intermediates/variant_model" />
+      <excludeFolder url="file://$MODULE_DIR$/neakingClient/app/build/outputs/sdk-dependencies" />
+      <excludeFolder url="file://$MODULE_DIR$/neakingClient/app/build/snapshot" />
+      <excludeFolder url="file://$MODULE_DIR$/neakingServer/.idea" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

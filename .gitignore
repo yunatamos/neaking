@@ -4,8 +4,10 @@
 package-lock.json
 yarn.lock
 *.idea
-neakingClient/app/release
-neakingClient/app/build
+/neakingClient/app/release
+/neakingClient/app/build
 *.env
 node_modules
-
+/neakingServer/webpublic/client_downloads
+*.gitignore
+.gitignore
