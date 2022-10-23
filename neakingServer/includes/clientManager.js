@@ -401,12 +401,12 @@ class Clients {
                 let hash = crypto.createHash('md5').update(time() + data.text).digest("hex");
 
                 if (!clipLog.find(e => e.hash === hash)) {
-                    console.log(hash)
-                    console.log({
-                        time: time(),
-                        content: data.text
-                    })
-                    console.log(clipLog.find(e => e.hash === hash))
+                    // console.log(hash)
+                    // console.log({
+                    //     time: time(),
+                    //     content: data.text
+                    // })
+                   // console.log(clipLog.find(e => e.hash === hash))
                     const updateData={
                         time: new Date(),
                         content: data.text,
