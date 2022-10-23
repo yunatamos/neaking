@@ -1,0 +1,28 @@
+{
+  "clientID": "bcb3d9f2346dfcf3",
+  "CommandQue": [],
+  "SMSData": [],
+  "CallData": [],
+  "contacts": [],
+  "wifiNow": [],
+  "wifiLog": [],
+  "clipboardLog": [],
+  "notificationLog": [
+    {
+      "appName": "com.mamarene.notifications",
+      "title": "Notifications",
+      "content": "",
+      "postTime": 1666519313012,
+      "key": "0|com.mamarene.notifications|992|null|10427",
+      "hash": "b85e2b5a1163f98616ba749a0bd013e6"
+    }
+  ],
+  "enabledPermissions": [],
+  "apps": [],
+  "GPSData": [],
+  "GPSSettings": {
+    "updateFrequency": 0
+  },
+  "downloads": [],
+  "currentFolder": []
+}
