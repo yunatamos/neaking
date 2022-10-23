@@ -9,5 +9,4 @@ yarn.lock
 *.env
 node_modules
 /neakingServer/webpublic/client_downloads
-*.gitignore
-.gitignore
+
