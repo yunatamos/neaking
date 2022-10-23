@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.neaking.app-mergeReleaseResources-43:/values-v29/values-v29.xml",
+            "map": [
+                {
+                    "source": "/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/res/values-v29/themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "64",
+                        "endLines": "7",
+                        "endColumns": "12",
+                        "endOffsets": "428"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "7",
+                        "endColumns": "12",
+                        "endOffsets": "369"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,522 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:2:1-116:12
+INJECTED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:2:1-116:12
+INJECTED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:2:1-116:12
+INJECTED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:2:1-116:12
+MERGED from [androidx.databinding:viewbinding:7.3.0] /home/yunat/.gradle/caches/transforms-3/55af593610786e90f0dd663f4ae62132/transformed/jetified-viewbinding-7.3.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.5.2] /home/yunat/.gradle/caches/transforms-3/ffa0aab9ef01c1956aa52afd59efa0e5/transformed/navigation-fragment-ktx-2.5.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.5.2] /home/yunat/.gradle/caches/transforms-3/fedd3c3df77c69fe9495d9d685afdcb8/transformed/navigation-fragment-2.5.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.5.2] /home/yunat/.gradle/caches/transforms-3/7c862823385fcdf77cdf5ec7319031f8/transformed/jetified-fragment-ktx-1.5.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.5.2] /home/yunat/.gradle/caches/transforms-3/e8cbd0caecd9c580362e03c46def9f7b/transformed/navigation-ui-ktx-2.5.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.5.2] /home/yunat/.gradle/caches/transforms-3/07b7378a34d2ba63ee30f62ae7ce1504/transformed/navigation-runtime-ktx-2.5.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui:2.5.2] /home/yunat/.gradle/caches/transforms-3/7b2c444a734f10ae7ef8be2f82bd3460/transformed/navigation-ui-2.5.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.5.2] /home/yunat/.gradle/caches/transforms-3/ed6ecf8fe7e89f44479fa1d084ca9bcc/transformed/navigation-runtime-2.5.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.5.1] /home/yunat/.gradle/caches/transforms-3/5f439cd83831e956b771d163bf47b73c/transformed/jetified-activity-ktx-1.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.5.2] /home/yunat/.gradle/caches/transforms-3/85c976073b65f58b7f3e5ea1513d8017/transformed/navigation-common-ktx-2.5.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.5.2] /home/yunat/.gradle/caches/transforms-3/611a42d7dbe399e29538f5f53c23148c/transformed/navigation-common-2.5.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] /home/yunat/.gradle/caches/transforms-3/84035cb6f1af58d49162f5d396948dc4/transformed/jetified-lifecycle-viewmodel-ktx-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.8.0-alpha01] /home/yunat/.gradle/caches/transforms-3/7d270bf827f775d0955ec3b82987eef2/transformed/material-1.8.0-alpha01/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/yunat/.gradle/caches/transforms-3/01371ea6114ab728a80183b8bc26f671/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.5.1] /home/yunat/.gradle/caches/transforms-3/a2fb60ec0f55e1b4ce989f513b48ed84/transformed/jetified-appcompat-resources-1.5.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.5.1] /home/yunat/.gradle/caches/transforms-3/edbe750be8fec32bd443dfab2821048c/transformed/appcompat-1.5.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/yunat/.gradle/caches/transforms-3/d984b87d4d4d7f1ca208fb469e112a0e/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.5.2] /home/yunat/.gradle/caches/transforms-3/4e0ea776d1520614866a86b4d81685c0/transformed/fragment-1.5.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.5.1] /home/yunat/.gradle/caches/transforms-3/fe56465e5036ccde50f716a00b1bdd22/transformed/jetified-activity-1.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/yunat/.gradle/caches/transforms-3/5ed04c2b505bd7fe517666cc361354ab/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/yunat/.gradle/caches/transforms-3/3662214ee7aa59e3b499a3391c7b93a8/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/yunat/.gradle/caches/transforms-3/0fc3bb7fae9d029011941a6f2b4b8d29/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /home/yunat/.gradle/caches/transforms-3/43cf74f340f36dd14c9d2bbcba489c8a/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /home/yunat/.gradle/caches/transforms-3/bc7ff2cba746b96accb1374205ce6de1/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.1] /home/yunat/.gradle/caches/transforms-3/df16cf3b20eea022f3a195a76f01f742/transformed/jetified-lifecycle-runtime-ktx-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /home/yunat/.gradle/caches/transforms-3/c4d893bdb29b46e21a716df280bf3625/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.0.0] /home/yunat/.gradle/caches/transforms-3/16e9e631b357a5a0ff19337a562c2779/transformed/jetified-window-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/yunat/.gradle/caches/transforms-3/e658c0fb28ba21c7bbcc104673ced30b/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/yunat/.gradle/caches/transforms-3/d45db48ceed7be9a9afdcc5aa400f768/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/yunat/.gradle/caches/transforms-3/df92ebe1f5b4d67228b83d9c51a9f19b/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/yunat/.gradle/caches/transforms-3/a30ccf78a07b10c067212c33e7865a98/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/yunat/.gradle/caches/transforms-3/ea075828d69c91f8879c861ce782bc97/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/yunat/.gradle/caches/transforms-3/cdd890ce1bfb8002da2d4d4873ec7f4f/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/yunat/.gradle/caches/transforms-3/aa5735c64d33d4408477514964861442/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/yunat/.gradle/caches/transforms-3/793977b36eb5fb5525747714be84d61c/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /home/yunat/.gradle/caches/transforms-3/108997508c77e1851fdc96d9d335ee9e/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.4.1] /home/yunat/.gradle/caches/transforms-3/11557fa3dc26ad8b85fd0d202fe216ed/transformed/transition-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.9.0] /home/yunat/.gradle/caches/transforms-3/5aca1a65039b86edde67f6832149c881/transformed/core-1.9.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.core:core-ktx:1.9.0] /home/yunat/.gradle/caches/transforms-3/67821617779ff7f844f2cd9e154d0f6a/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/yunat/.gradle/caches/transforms-3/298b02ede0f35d42e2e610dc6966ba03/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/yunat/.gradle/caches/transforms-3/bf771027ade3ce987e75224c37d0f242/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /home/yunat/.gradle/caches/transforms-3/d7a133bc01add9188eeab3788bdf0869/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] /home/yunat/.gradle/caches/transforms-3/cd8e75cf5ac15bda28ad71f2b7a1364d/transformed/jetified-savedstate-ktx-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] /home/yunat/.gradle/caches/transforms-3/9c8a60615c98856b3275ef7fd2ef4dd9/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/yunat/.gradle/caches/transforms-3/95a3bc5ee141ec5ffa61c65ed5fcd954/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/yunat/.gradle/caches/transforms-3/1ec7455a782c4382e9eaed34f6c40abb/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/yunat/.gradle/caches/transforms-3/2cad667c55a1788fd4a550234c351783/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/yunat/.gradle/caches/transforms-3/520be5ef7c9cbf713ddcba83b0afe35d/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/yunat/.gradle/caches/transforms-3/2510f229ef7874cde612be9e47545711/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.1] /home/yunat/.gradle/caches/transforms-3/dd00a69101265a6b26b62f1e71787bea/transformed/jetified-lifecycle-livedata-core-ktx-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /home/yunat/.gradle/caches/transforms-3/5f070741a59b593847764f31f8316610/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/yunat/.gradle/caches/transforms-3/20fd1332e9602c1d63ac689e3b600e9b/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/yunat/.gradle/caches/transforms-3/e25d5659a9055f2d1c7eb85b83444e3b/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/yunat/.gradle/caches/transforms-3/86998a84ed3d5847a665871c0ae262fc/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/yunat/.gradle/caches/transforms-3/ca117d28fe5ea26fddcb5e34a4ea7079/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/yunat/.gradle/caches/transforms-3/389aaa1c2e9cee92d69b4ea9f40ef0cb/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/yunat/.gradle/caches/transforms-3/3c622d7198801b339de0b80d8fc8d96d/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:2:1-116:12
+INJECTED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:2:1-116:12
+INJECTED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:2:1-116:12
+	package
+		INJECTED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:2:1-116:12
+		INJECTED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:2:1-116:12
+		INJECTED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:2:1-116:12
+		INJECTED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:4:5-68
+	android:name
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:4:22-65
+uses-permission#android.permission.CAMERA
+ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:5:5-65
+	android:name
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:5:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:6:5-7:40
+	tools:ignore
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:7:9-37
+	android:name
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:6:22-78
+uses-permission#android.permission.INTERNET
+ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:8:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:9:22-76
+uses-permission#android.permission.READ_SMS
+ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:10:5-66
+	android:name
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:10:22-64
+uses-permission#android.permission.SEND_SMS
+ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:11:5-66
+	android:name
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:11:22-64
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:12:5-75
+	android:name
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:12:22-73
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:13:5-80
+	android:name
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:13:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:14:5-75
+	android:name
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:14:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:15:5-80
+	android:name
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:15:22-77
+uses-permission#android.permission.READ_CALL_LOG
+ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:16:5-71
+	android:name
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:16:22-69
+uses-permission#android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
+ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:18:5-94
+	android:name
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:18:22-92
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:20:5-70
+	android:name
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:20:22-68
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:21:5-79
+	android:name
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:21:22-77
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:22:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:23:22-76
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:24:5-72
+	android:name
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:24:22-69
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:26:5-76
+	android:name
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:26:22-74
+application
+ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:27:5-114:19
+MERGED from [com.google.android.material:material:1.8.0-alpha01] /home/yunat/.gradle/caches/transforms-3/7d270bf827f775d0955ec3b82987eef2/transformed/material-1.8.0-alpha01/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.8.0-alpha01] /home/yunat/.gradle/caches/transforms-3/7d270bf827f775d0955ec3b82987eef2/transformed/material-1.8.0-alpha01/AndroidManifest.xml:24:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/yunat/.gradle/caches/transforms-3/01371ea6114ab728a80183b8bc26f671/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/yunat/.gradle/caches/transforms-3/01371ea6114ab728a80183b8bc26f671/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.window:window:1.0.0] /home/yunat/.gradle/caches/transforms-3/16e9e631b357a5a0ff19337a562c2779/transformed/jetified-window-1.0.0/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0] /home/yunat/.gradle/caches/transforms-3/16e9e631b357a5a0ff19337a562c2779/transformed/jetified-window-1.0.0/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/yunat/.gradle/caches/transforms-3/d45db48ceed7be9a9afdcc5aa400f768/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/yunat/.gradle/caches/transforms-3/d45db48ceed7be9a9afdcc5aa400f768/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.9.0] /home/yunat/.gradle/caches/transforms-3/5aca1a65039b86edde67f6832149c881/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.9.0] /home/yunat/.gradle/caches/transforms-3/5aca1a65039b86edde67f6832149c881/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/yunat/.gradle/caches/transforms-3/bf771027ade3ce987e75224c37d0f242/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/yunat/.gradle/caches/transforms-3/bf771027ade3ce987e75224c37d0f242/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/yunat/.gradle/caches/transforms-3/1ec7455a782c4382e9eaed34f6c40abb/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/yunat/.gradle/caches/transforms-3/1ec7455a782c4382e9eaed34f6c40abb/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/yunat/.gradle/caches/transforms-3/2cad667c55a1788fd4a550234c351783/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/yunat/.gradle/caches/transforms-3/2cad667c55a1788fd4a550234c351783/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.9.0] /home/yunat/.gradle/caches/transforms-3/5aca1a65039b86edde67f6832149c881/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:35:9-35
+	android:label
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:33:9-41
+	android:fullBackupContent
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:31:9-54
+	android:roundIcon
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:34:9-54
+	tools:targetApi
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:37:9-29
+	android:icon
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:32:9-43
+	android:allowBackup
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:28:9-35
+	android:theme
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:36:9-45
+	android:networkSecurityConfig
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:38:9-69
+	android:dataExtractionRules
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:30:9-65
+	android:usesCleartextTraffic
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:29:9-44
+activity#com.neaking.MainActivity
+ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:40:9-53:20
+	android:exported
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:42:13-36
+	android:theme
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:43:13-49
+	android:name
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:41:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:44:13-48:29
+action#android.intent.action.MAIN
+ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:45:17-69
+	android:name
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:45:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:47:17-77
+	android:name
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:47:27-74
+meta-data#android.app.lib_name
+ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:50:13-52:36
+	android:value
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:52:17-33
+	android:name
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:51:17-52
+service#com.neaking.MainService
+ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:54:9-58:15
+	android:enabled
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:56:13-35
+	android:exported
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:57:13-37
+	android:name
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:55:13-40
+service#com.neaking.MyService
+ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:59:9-63:15
+	android:enabled
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:61:13-35
+	android:exported
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:62:13-37
+	android:name
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:60:13-38
+receiver#com.neaking.ServiceReceiver
+ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:64:9-77:20
+	android:enabled
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:66:13-35
+	android:label
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:68:13-54
+	android:exported
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:67:13-36
+	tools:ignore
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:70:13-44
+	android:permission
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:69:13-38
+	android:name
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:65:13-44
+intent-filter#action:name:respawnService
+ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:71:13-73:29
+action#respawnService
+ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:72:17-57
+	android:name
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:72:25-54
+intent-filter#action:name:restartservice
+ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:74:13-76:29
+action#restartservice
+ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:75:17-57
+	android:name
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:75:25-54
+receiver#com.neaking.MyReceiver
+ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:79:9-90:20
+	android:enabled
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:81:13-35
+	android:exported
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:82:13-36
+	android:name
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:80:13-39
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED
+ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:83:13-85:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:84:17-79
+	android:name
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:84:25-76
+intent-filter#action:name:android.provider.Telephony.SECRET_CODE+data:scheme:android_secret_code
+ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:86:13-89:29
+action#android.provider.Telephony.SECRET_CODE
+ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:87:17-81
+	android:name
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:87:25-78
+data
+ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:88:17-62
+	android:scheme
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:88:23-59
+service#com.neaking.NotificationListener
+ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:91:9-98:19
+	android:label
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:92:13-45
+	android:exported
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:94:13-36
+	android:permission
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:93:13-87
+	android:name
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:91:18-54
+intent-filter#action:name:android.service.notification.NotificationListenerService
+ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:95:13-97:29
+action#android.service.notification.NotificationListenerService
+ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:96:17-99
+	android:name
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:96:25-96
+receiver#com.neaking.DeviceAdminComponent
+ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:99:9-113:20
+	android:label
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:102:13-55
+	android:exported
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:104:13-36
+	android:permission
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:103:13-70
+	android:description
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:101:13-61
+	android:name
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:100:13-49
+meta-data#android.app.device_admin
+ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:105:13-107:49
+	android:resource
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:107:17-46
+	android:name
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:106:17-56
+intent-filter#action:name:android.app.action.DEVICE_ADMIN_DISABLE_REQUESTED+action:name:android.app.action.DEVICE_ADMIN_ENABLED
+ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:109:13-112:29
+action#android.app.action.DEVICE_ADMIN_ENABLED
+ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:110:17-82
+	android:name
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:110:25-79
+action#android.app.action.DEVICE_ADMIN_DISABLE_REQUESTED
+ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:111:17-92
+	android:name
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:111:25-89
+uses-sdk
+INJECTED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml
+INJECTED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:7.3.0] /home/yunat/.gradle/caches/transforms-3/55af593610786e90f0dd663f4ae62132/transformed/jetified-viewbinding-7.3.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.databinding:viewbinding:7.3.0] /home/yunat/.gradle/caches/transforms-3/55af593610786e90f0dd663f4ae62132/transformed/jetified-viewbinding-7.3.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.5.2] /home/yunat/.gradle/caches/transforms-3/ffa0aab9ef01c1956aa52afd59efa0e5/transformed/navigation-fragment-ktx-2.5.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.5.2] /home/yunat/.gradle/caches/transforms-3/ffa0aab9ef01c1956aa52afd59efa0e5/transformed/navigation-fragment-ktx-2.5.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.5.2] /home/yunat/.gradle/caches/transforms-3/fedd3c3df77c69fe9495d9d685afdcb8/transformed/navigation-fragment-2.5.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.5.2] /home/yunat/.gradle/caches/transforms-3/fedd3c3df77c69fe9495d9d685afdcb8/transformed/navigation-fragment-2.5.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.5.2] /home/yunat/.gradle/caches/transforms-3/7c862823385fcdf77cdf5ec7319031f8/transformed/jetified-fragment-ktx-1.5.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.5.2] /home/yunat/.gradle/caches/transforms-3/7c862823385fcdf77cdf5ec7319031f8/transformed/jetified-fragment-ktx-1.5.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.5.2] /home/yunat/.gradle/caches/transforms-3/e8cbd0caecd9c580362e03c46def9f7b/transformed/navigation-ui-ktx-2.5.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.5.2] /home/yunat/.gradle/caches/transforms-3/e8cbd0caecd9c580362e03c46def9f7b/transformed/navigation-ui-ktx-2.5.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.5.2] /home/yunat/.gradle/caches/transforms-3/07b7378a34d2ba63ee30f62ae7ce1504/transformed/navigation-runtime-ktx-2.5.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.5.2] /home/yunat/.gradle/caches/transforms-3/07b7378a34d2ba63ee30f62ae7ce1504/transformed/navigation-runtime-ktx-2.5.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.5.2] /home/yunat/.gradle/caches/transforms-3/7b2c444a734f10ae7ef8be2f82bd3460/transformed/navigation-ui-2.5.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.5.2] /home/yunat/.gradle/caches/transforms-3/7b2c444a734f10ae7ef8be2f82bd3460/transformed/navigation-ui-2.5.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.5.2] /home/yunat/.gradle/caches/transforms-3/ed6ecf8fe7e89f44479fa1d084ca9bcc/transformed/navigation-runtime-2.5.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.5.2] /home/yunat/.gradle/caches/transforms-3/ed6ecf8fe7e89f44479fa1d084ca9bcc/transformed/navigation-runtime-2.5.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.5.1] /home/yunat/.gradle/caches/transforms-3/5f439cd83831e956b771d163bf47b73c/transformed/jetified-activity-ktx-1.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.5.1] /home/yunat/.gradle/caches/transforms-3/5f439cd83831e956b771d163bf47b73c/transformed/jetified-activity-ktx-1.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.5.2] /home/yunat/.gradle/caches/transforms-3/85c976073b65f58b7f3e5ea1513d8017/transformed/navigation-common-ktx-2.5.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.5.2] /home/yunat/.gradle/caches/transforms-3/85c976073b65f58b7f3e5ea1513d8017/transformed/navigation-common-ktx-2.5.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.5.2] /home/yunat/.gradle/caches/transforms-3/611a42d7dbe399e29538f5f53c23148c/transformed/navigation-common-2.5.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.5.2] /home/yunat/.gradle/caches/transforms-3/611a42d7dbe399e29538f5f53c23148c/transformed/navigation-common-2.5.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] /home/yunat/.gradle/caches/transforms-3/84035cb6f1af58d49162f5d396948dc4/transformed/jetified-lifecycle-viewmodel-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] /home/yunat/.gradle/caches/transforms-3/84035cb6f1af58d49162f5d396948dc4/transformed/jetified-lifecycle-viewmodel-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.8.0-alpha01] /home/yunat/.gradle/caches/transforms-3/7d270bf827f775d0955ec3b82987eef2/transformed/material-1.8.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.8.0-alpha01] /home/yunat/.gradle/caches/transforms-3/7d270bf827f775d0955ec3b82987eef2/transformed/material-1.8.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/yunat/.gradle/caches/transforms-3/01371ea6114ab728a80183b8bc26f671/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/yunat/.gradle/caches/transforms-3/01371ea6114ab728a80183b8bc26f671/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.5.1] /home/yunat/.gradle/caches/transforms-3/a2fb60ec0f55e1b4ce989f513b48ed84/transformed/jetified-appcompat-resources-1.5.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.5.1] /home/yunat/.gradle/caches/transforms-3/a2fb60ec0f55e1b4ce989f513b48ed84/transformed/jetified-appcompat-resources-1.5.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.5.1] /home/yunat/.gradle/caches/transforms-3/edbe750be8fec32bd443dfab2821048c/transformed/appcompat-1.5.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.5.1] /home/yunat/.gradle/caches/transforms-3/edbe750be8fec32bd443dfab2821048c/transformed/appcompat-1.5.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/yunat/.gradle/caches/transforms-3/d984b87d4d4d7f1ca208fb469e112a0e/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/yunat/.gradle/caches/transforms-3/d984b87d4d4d7f1ca208fb469e112a0e/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.2] /home/yunat/.gradle/caches/transforms-3/4e0ea776d1520614866a86b4d81685c0/transformed/fragment-1.5.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.2] /home/yunat/.gradle/caches/transforms-3/4e0ea776d1520614866a86b4d81685c0/transformed/fragment-1.5.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.5.1] /home/yunat/.gradle/caches/transforms-3/fe56465e5036ccde50f716a00b1bdd22/transformed/jetified-activity-1.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.5.1] /home/yunat/.gradle/caches/transforms-3/fe56465e5036ccde50f716a00b1bdd22/transformed/jetified-activity-1.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/yunat/.gradle/caches/transforms-3/5ed04c2b505bd7fe517666cc361354ab/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/yunat/.gradle/caches/transforms-3/5ed04c2b505bd7fe517666cc361354ab/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/yunat/.gradle/caches/transforms-3/3662214ee7aa59e3b499a3391c7b93a8/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/yunat/.gradle/caches/transforms-3/3662214ee7aa59e3b499a3391c7b93a8/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/yunat/.gradle/caches/transforms-3/0fc3bb7fae9d029011941a6f2b4b8d29/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/yunat/.gradle/caches/transforms-3/0fc3bb7fae9d029011941a6f2b4b8d29/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /home/yunat/.gradle/caches/transforms-3/43cf74f340f36dd14c9d2bbcba489c8a/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /home/yunat/.gradle/caches/transforms-3/43cf74f340f36dd14c9d2bbcba489c8a/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /home/yunat/.gradle/caches/transforms-3/bc7ff2cba746b96accb1374205ce6de1/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /home/yunat/.gradle/caches/transforms-3/bc7ff2cba746b96accb1374205ce6de1/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.1] /home/yunat/.gradle/caches/transforms-3/df16cf3b20eea022f3a195a76f01f742/transformed/jetified-lifecycle-runtime-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.1] /home/yunat/.gradle/caches/transforms-3/df16cf3b20eea022f3a195a76f01f742/transformed/jetified-lifecycle-runtime-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /home/yunat/.gradle/caches/transforms-3/c4d893bdb29b46e21a716df280bf3625/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /home/yunat/.gradle/caches/transforms-3/c4d893bdb29b46e21a716df280bf3625/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] /home/yunat/.gradle/caches/transforms-3/16e9e631b357a5a0ff19337a562c2779/transformed/jetified-window-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] /home/yunat/.gradle/caches/transforms-3/16e9e631b357a5a0ff19337a562c2779/transformed/jetified-window-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/yunat/.gradle/caches/transforms-3/e658c0fb28ba21c7bbcc104673ced30b/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/yunat/.gradle/caches/transforms-3/e658c0fb28ba21c7bbcc104673ced30b/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/yunat/.gradle/caches/transforms-3/d45db48ceed7be9a9afdcc5aa400f768/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/yunat/.gradle/caches/transforms-3/d45db48ceed7be9a9afdcc5aa400f768/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/yunat/.gradle/caches/transforms-3/df92ebe1f5b4d67228b83d9c51a9f19b/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/yunat/.gradle/caches/transforms-3/df92ebe1f5b4d67228b83d9c51a9f19b/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/yunat/.gradle/caches/transforms-3/a30ccf78a07b10c067212c33e7865a98/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/yunat/.gradle/caches/transforms-3/a30ccf78a07b10c067212c33e7865a98/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/yunat/.gradle/caches/transforms-3/ea075828d69c91f8879c861ce782bc97/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/yunat/.gradle/caches/transforms-3/ea075828d69c91f8879c861ce782bc97/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/yunat/.gradle/caches/transforms-3/cdd890ce1bfb8002da2d4d4873ec7f4f/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/yunat/.gradle/caches/transforms-3/cdd890ce1bfb8002da2d4d4873ec7f4f/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/yunat/.gradle/caches/transforms-3/aa5735c64d33d4408477514964861442/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/yunat/.gradle/caches/transforms-3/aa5735c64d33d4408477514964861442/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/yunat/.gradle/caches/transforms-3/793977b36eb5fb5525747714be84d61c/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/yunat/.gradle/caches/transforms-3/793977b36eb5fb5525747714be84d61c/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /home/yunat/.gradle/caches/transforms-3/108997508c77e1851fdc96d9d335ee9e/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /home/yunat/.gradle/caches/transforms-3/108997508c77e1851fdc96d9d335ee9e/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] /home/yunat/.gradle/caches/transforms-3/11557fa3dc26ad8b85fd0d202fe216ed/transformed/transition-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] /home/yunat/.gradle/caches/transforms-3/11557fa3dc26ad8b85fd0d202fe216ed/transformed/transition-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.9.0] /home/yunat/.gradle/caches/transforms-3/5aca1a65039b86edde67f6832149c881/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] /home/yunat/.gradle/caches/transforms-3/5aca1a65039b86edde67f6832149c881/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] /home/yunat/.gradle/caches/transforms-3/67821617779ff7f844f2cd9e154d0f6a/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] /home/yunat/.gradle/caches/transforms-3/67821617779ff7f844f2cd9e154d0f6a/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/yunat/.gradle/caches/transforms-3/298b02ede0f35d42e2e610dc6966ba03/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/yunat/.gradle/caches/transforms-3/298b02ede0f35d42e2e610dc6966ba03/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/yunat/.gradle/caches/transforms-3/bf771027ade3ce987e75224c37d0f242/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/yunat/.gradle/caches/transforms-3/bf771027ade3ce987e75224c37d0f242/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /home/yunat/.gradle/caches/transforms-3/d7a133bc01add9188eeab3788bdf0869/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /home/yunat/.gradle/caches/transforms-3/d7a133bc01add9188eeab3788bdf0869/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] /home/yunat/.gradle/caches/transforms-3/cd8e75cf5ac15bda28ad71f2b7a1364d/transformed/jetified-savedstate-ktx-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] /home/yunat/.gradle/caches/transforms-3/cd8e75cf5ac15bda28ad71f2b7a1364d/transformed/jetified-savedstate-ktx-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /home/yunat/.gradle/caches/transforms-3/9c8a60615c98856b3275ef7fd2ef4dd9/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /home/yunat/.gradle/caches/transforms-3/9c8a60615c98856b3275ef7fd2ef4dd9/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /home/yunat/.gradle/caches/transforms-3/95a3bc5ee141ec5ffa61c65ed5fcd954/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/yunat/.gradle/caches/transforms-3/95a3bc5ee141ec5ffa61c65ed5fcd954/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/yunat/.gradle/caches/transforms-3/1ec7455a782c4382e9eaed34f6c40abb/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/yunat/.gradle/caches/transforms-3/1ec7455a782c4382e9eaed34f6c40abb/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/yunat/.gradle/caches/transforms-3/2cad667c55a1788fd4a550234c351783/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/yunat/.gradle/caches/transforms-3/2cad667c55a1788fd4a550234c351783/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/yunat/.gradle/caches/transforms-3/520be5ef7c9cbf713ddcba83b0afe35d/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/yunat/.gradle/caches/transforms-3/520be5ef7c9cbf713ddcba83b0afe35d/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/yunat/.gradle/caches/transforms-3/2510f229ef7874cde612be9e47545711/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/yunat/.gradle/caches/transforms-3/2510f229ef7874cde612be9e47545711/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.1] /home/yunat/.gradle/caches/transforms-3/dd00a69101265a6b26b62f1e71787bea/transformed/jetified-lifecycle-livedata-core-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.1] /home/yunat/.gradle/caches/transforms-3/dd00a69101265a6b26b62f1e71787bea/transformed/jetified-lifecycle-livedata-core-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /home/yunat/.gradle/caches/transforms-3/5f070741a59b593847764f31f8316610/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /home/yunat/.gradle/caches/transforms-3/5f070741a59b593847764f31f8316610/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/yunat/.gradle/caches/transforms-3/20fd1332e9602c1d63ac689e3b600e9b/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/yunat/.gradle/caches/transforms-3/20fd1332e9602c1d63ac689e3b600e9b/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/yunat/.gradle/caches/transforms-3/e25d5659a9055f2d1c7eb85b83444e3b/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/yunat/.gradle/caches/transforms-3/e25d5659a9055f2d1c7eb85b83444e3b/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/yunat/.gradle/caches/transforms-3/86998a84ed3d5847a665871c0ae262fc/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/yunat/.gradle/caches/transforms-3/86998a84ed3d5847a665871c0ae262fc/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/yunat/.gradle/caches/transforms-3/ca117d28fe5ea26fddcb5e34a4ea7079/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/yunat/.gradle/caches/transforms-3/ca117d28fe5ea26fddcb5e34a4ea7079/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/yunat/.gradle/caches/transforms-3/389aaa1c2e9cee92d69b4ea9f40ef0cb/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/yunat/.gradle/caches/transforms-3/389aaa1c2e9cee92d69b4ea9f40ef0cb/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/yunat/.gradle/caches/transforms-3/3c622d7198801b339de0b80d8fc8d96d/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/yunat/.gradle/caches/transforms-3/3c622d7198801b339de0b80d8fc8d96d/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+INJECTED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml
+INJECTED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml
+		INJECTED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml
+		ADDED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml
+		INJECTED from /opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0] /home/yunat/.gradle/caches/transforms-3/16e9e631b357a5a0ff19337a562c2779/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] /home/yunat/.gradle/caches/transforms-3/16e9e631b357a5a0ff19337a562c2779/transformed/jetified-window-1.0.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] /home/yunat/.gradle/caches/transforms-3/16e9e631b357a5a0ff19337a562c2779/transformed/jetified-window-1.0.0/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0] /home/yunat/.gradle/caches/transforms-3/16e9e631b357a5a0ff19337a562c2779/transformed/jetified-window-1.0.0/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] /home/yunat/.gradle/caches/transforms-3/16e9e631b357a5a0ff19337a562c2779/transformed/jetified-window-1.0.0/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] /home/yunat/.gradle/caches/transforms-3/16e9e631b357a5a0ff19337a562c2779/transformed/jetified-window-1.0.0/AndroidManifest.xml:29:13-51
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] /home/yunat/.gradle/caches/transforms-3/d45db48ceed7be9a9afdcc5aa400f768/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/yunat/.gradle/caches/transforms-3/bf771027ade3ce987e75224c37d0f242/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/yunat/.gradle/caches/transforms-3/bf771027ade3ce987e75224c37d0f242/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/yunat/.gradle/caches/transforms-3/2cad667c55a1788fd4a550234c351783/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/yunat/.gradle/caches/transforms-3/2cad667c55a1788fd4a550234c351783/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/yunat/.gradle/caches/transforms-3/d45db48ceed7be9a9afdcc5aa400f768/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/yunat/.gradle/caches/transforms-3/d45db48ceed7be9a9afdcc5aa400f768/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/yunat/.gradle/caches/transforms-3/d45db48ceed7be9a9afdcc5aa400f768/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/yunat/.gradle/caches/transforms-3/d45db48ceed7be9a9afdcc5aa400f768/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] /home/yunat/.gradle/caches/transforms-3/d45db48ceed7be9a9afdcc5aa400f768/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/yunat/.gradle/caches/transforms-3/d45db48ceed7be9a9afdcc5aa400f768/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/yunat/.gradle/caches/transforms-3/d45db48ceed7be9a9afdcc5aa400f768/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /home/yunat/.gradle/caches/transforms-3/5aca1a65039b86edde67f6832149c881/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] /home/yunat/.gradle/caches/transforms-3/5aca1a65039b86edde67f6832149c881/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /home/yunat/.gradle/caches/transforms-3/5aca1a65039b86edde67f6832149c881/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+permission#com.neaking.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /home/yunat/.gradle/caches/transforms-3/5aca1a65039b86edde67f6832149c881/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] /home/yunat/.gradle/caches/transforms-3/5aca1a65039b86edde67f6832149c881/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /home/yunat/.gradle/caches/transforms-3/5aca1a65039b86edde67f6832149c881/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /home/yunat/.gradle/caches/transforms-3/5aca1a65039b86edde67f6832149c881/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /home/yunat/.gradle/caches/transforms-3/5aca1a65039b86edde67f6832149c881/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+uses-permission#com.neaking.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /home/yunat/.gradle/caches/transforms-3/5aca1a65039b86edde67f6832149c881/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /home/yunat/.gradle/caches/transforms-3/5aca1a65039b86edde67f6832149c881/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/yunat/.gradle/caches/transforms-3/bf771027ade3ce987e75224c37d0f242/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/yunat/.gradle/caches/transforms-3/bf771027ade3ce987e75224c37d0f242/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/yunat/.gradle/caches/transforms-3/bf771027ade3ce987e75224c37d0f242/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78

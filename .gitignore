@@ -1,0 +1,11 @@
+# ignore ALL .log files
+*.log
+/neakingServer/node_modules
+package-lock.json
+yarn.lock
+*.idea
+neakingClient/app/release
+neakingClient/app/build
+*.env
+node_modules
+
