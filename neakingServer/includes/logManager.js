@@ -1,12 +1,11 @@
 const LogsData =require("./../models/Logs")
 
 const log = async (type, message,userName,clientId) => {
-    console.log(type.name, message);
+    console.log(type.name, message,clientId);
     await LogsData.updateOne(
         { user:  userName },
         {
-             $push:{logs:{type,message,time:new Date(),clientId}} ,
-            //  $setOnInsert: dataOfClientUpdate
+             $push:{logs:{type,message,time:new Date(),clientId}},
         },
         { upsert: true }
     )
