@@ -1,12 +1,11 @@
-const db = require('./databaseGateway');
 const LogsData =require("./../models/Logs")
 
-const log = async (type, message,userName) => {
+const log = async (type, message,userName,clientId) => {
     console.log(type.name, message);
     await LogsData.updateOne(
         { user:  userName },
         {
-             $push:{logs:{type,message,time:new Date()}} ,
+             $push:{logs:{type,message,time:new Date(),clientId}} ,
             //  $setOnInsert: dataOfClientUpdate
         },
         { upsert: true }

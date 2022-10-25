@@ -89,10 +89,12 @@ A cloud based remote android management suite, powered by NodeJS,Express and Mon
 7. in your browser navigate to `http://<SERVER IP>:22533`
     
 It's recommended to run NeaKing behind a reverse proxy such as [NGINX](https://www.nginx.com/resources/wiki/start/topics/tutorials/install/) or 
-- Debian, Ubuntu, Etc
-  - `sudo apt install openvpn`
+ [Open Vpn](https://openvpn.net/)
+Install OpenVpn
+ - Debian, Ubuntu, Etc
+ - `sudo apt install openvpn`
   use [PortMap](https://portmap.io) for configuration and this [youtube Video ](https://www.youtube.com/watch?v=wXA_C0ymh0A) for instruction to get key
-  - `sudo openvpn --config /path/to/openvpnconfingFile.ovpn  &`
+ - `sudo openvpn --config /path/to/openvpnconfingFile.ovpn  &`
 
 ## Notes
 When opening an issue, you **MUST** use the provided templates. Issues without this will not receive support quickly and will be put to the bottom of the figurative pile.
@@ -117,8 +119,8 @@ Neaking Builds off and utilizes server opensource software's, Without these, Nea
 # donate to  us
 - $5 $10, $15, $20 $50 $500
 - bitcoin: bc1qthcek3k95hauc6ssx0h8e533juq9aszsztlgfj
-- ETH ETH:  0xBbde3bE748CaEB04801d9C728fdFeC418c6Eaf6E
-- USDT: TDo3yMbQDgeikvwwVJNeprx2jeyScyadsA
+- ETH /USDT:  0xBbde3bE748CaEB04801d9C728fdFeC418c6Eaf6E
+- TRON /USDT: TDo3yMbQDgeikvwwVJNeprx2jeyScyadsA
 
 ## Support
 

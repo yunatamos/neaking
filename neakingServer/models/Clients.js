@@ -1,6 +1,5 @@
 // Require Dependencies
 const mongoose = require('mongoose');
-const SchemaTypes = mongoose.Schema.Types;
 
 // Setup  Schema
 const ClientsSchema = new mongoose.Schema({
@@ -27,7 +26,7 @@ const ClientsSchema = new mongoose.Schema({
     default: {},
   },
 
-  // When this user was created
+  // When this  was created
   created: {
     type: Date,
     default: Date.now,
@@ -35,4 +34,4 @@ const ClientsSchema = new mongoose.Schema({
 });
 
 // Create and export the new model
-const Clients = (module.exports = mongoose.model('Clients', ClientsSchema));
+(module.exports = mongoose.model('Clients', ClientsSchema));

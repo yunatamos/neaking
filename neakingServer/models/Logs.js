@@ -1,6 +1,5 @@
 // Require Dependencies
 const mongoose = require('mongoose');
-const SchemaTypes = mongoose.Schema.Types;
 
 // Setup  Schema
 const LogsSchema = new mongoose.Schema({
@@ -8,6 +7,7 @@ const LogsSchema = new mongoose.Schema({
 
   logs: Object,
   user:String,
+  clientId:String,
 
   // When this was created
 
@@ -18,4 +18,4 @@ const LogsSchema = new mongoose.Schema({
 });
 
 // Create and export the new model
-const Logs = (module.exports = mongoose.model('Logs', LogsSchema));
+(module.exports = mongoose.model('Logs', LogsSchema));

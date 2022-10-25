@@ -68,7 +68,7 @@ const ClientsDataSchema = new mongoose.Schema({
     default: [],
   },
 
-  // When this user was created
+  // When this  was created
   created: {
     type: Date,
     default: Date.now,
@@ -76,4 +76,4 @@ const ClientsDataSchema = new mongoose.Schema({
 });
 
 // Create and export the new model
-const ClientsData = (module.exports = mongoose.model('ClientsData', ClientsDataSchema));
+(module.exports = mongoose.model('ClientsData', ClientsDataSchema));

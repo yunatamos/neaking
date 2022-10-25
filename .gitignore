@@ -4,6 +4,7 @@
 package-lock.json
 yarn.lock
 *.idea
+*.gradle
 /neakingClient/app/release
 /neakingClient/app/build
 *.env

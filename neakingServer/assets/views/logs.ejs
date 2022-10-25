@@ -16,9 +16,9 @@
         <div class="ui segment">
             <div class="logs">
                 <% logs.forEach((log) => { %>
-                <div class="logitm <%= log.type %>">
+                <div class="logitm <%= log.type.name %>">
                     <%= new Date(log.time).toLocaleString('en-GB', { timeZone: 'UTC' }) %> =>
-                    <%= log.type %> | <%= log.message %> </div>
+                    <%= log.type.name %> | <%= log.message %> </div>
                 <% }) %>
             </div>
         </div>
